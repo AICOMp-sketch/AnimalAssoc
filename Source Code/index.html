@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Association</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Animal Association</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#adopt">Adopt</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Love, Care, and Save Animals</h2>
+      <p>Join us in making a difference in the lives of countless animals in need.</p>
+      <a href="#donate" class="btn-primary">Donate Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Animals" />
+        <p>
+          The Animal Association is dedicated to rescuing, rehabilitating, and rehoming animals in need. We believe every animal deserves love and care, and we work tirelessly to create a better world for them.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="adopt" class="adopt-section">
+    <div class="container">
+      <h2 class="section-title">Adopt a Friend</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dog" />
+          <h3>Buddy</h3>
+          <p>Friendly and energetic Labrador looking for a loving family.</p>
+          <button class="btn-secondary" onclick="alert('Contact us to adopt Buddy!')">Adopt</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cat" />
+          <h3>Mittens</h3>
+          <p>Sweet and calm Cat who loves cuddles and naps.</p>
+          <button class="btn-secondary" onclick="alert('Contact us to adopt Mittens!')">Adopt</button>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1609274212552-1b1e3b2f3f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Rabbit" />
+          <h3>Thumper</h3>
+          <p>Adorable bunny eager to find a cozy home.</p>
+          <button class="btn-secondary" onclick="alert('Contact us to adopt Thumper!')">Adopt</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="volunteer" class="volunteer-section">
+    <div class="container">
+      <h2 class="section-title">Become a Volunteer</h2>
+      <p>Join our team to help care for animals, organize events, and more. Your time and love make a difference!</p>
+      <button class="btn-primary" onclick="alert('Thank you for your interest!')">Join Us</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2024 Animal Association. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
